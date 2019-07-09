@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2018, 9:23:30 PM
+    Author     : RGUKT
+*/
+    .ashok
+    {
+        width:100%;
+        font-family: "Verdana","sans-serif";
+        text-align: center;
+        font-size: 50px;
+        background-color: blueviolet;
+        color: white;
+    }
+    .submit
+            {
+                width:80%;
+                border:none;
+                background-color: transparent;
+                font-size:30px;
+                color:white;
+            }
+    body
+    {        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-image: url(backk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .container
+    {
+        width: 100%;
+        margin: 0 auto; /* Center the DIV horizontally */
+	text-align:center;
+        background-color: whitesmoke;
+        padding: 2px;
+    }
+    .fixed-header
+    {
+        width: 100%;
+        position: fixed;        
+        background: blueviolet;
+        padding: 10px 0px;
+        color: blueviolet;
+        top: 0;
+	left:0;
+    }
+    .fixed-footer
+    {	
+	width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 5px 5px;
+        color: #fff;
+        bottom: 0;
+	left:0;
+    }
+    .welcome
+    {
+         position:relative;
+         top:100px;
+         width:520px;
+        background-color: transparent;
+         margin:auto;
+         margin-top:10px;
+         margin-bottom:10px;
+        color: white;
+         font-size:25px;
+         
+    }
+    .foot
+    {  
+        background: #333;
+        left:0;
+        text-align: center;
+    }    
+
+    nav a
+    {
+        color: black;
+        text-decoration: blink;
+        font-size: 25px;
+        padding: 15px 25px;
+        display: inline-block;
+    }
+    .logo
+    {
+        position:relative;
+        left:0px;
+        top:90px;
+    }
+    .content
+    {
+        position:relative;
+        left:0px;
+        top:100px;
+        text-align: center; 
+        background-color: blue;
+        color: lemonchiffon;
+        font-size: 25px;
+       opacity: 5.5;
+        
+    }
+    
+    
+    
+    
+ *{
+ margin:0px;
+ padding:0px;
+ }
+body{
+ font-family:Tahoma, Geneva, sans-serif;
+ }
+#containerr
+{
+ width:520px;
+ background-color:rgba(250,250,252,.9);
+ margin:auto;
+ margin-top:110px;
+ margin-bottom:10px;
+ box-shadow:0 0 3px #999;
+ border-radius: 30px;
+ }
+#container_body
+{
+ padding:20px;
+ }
+.form_title{
+ font-size:35px;
+ color:#141823;
+ text-align:center;
+ padding:10px;
+ font-weight:normal;
+ }
+.head_para{
+ font-size:19px;
+ color:#99a2a7;
+ text-align:center;
+ font-weight:normal;
+ }
+#form_name{
+ padding:25px 0 0 15px;
+ }
+.firstnameorlastname{
+  margin-right:20px;
+ }
+.input_name{
+ width:207px;
+ padding:5px;
+ font-size:18px;
+ }
+#mobile_form{
+ clear:both;
+ padding:15px 0 10px 0px;
+ }
+.input_mobile
+{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+#Re_email_form{
+ padding:10px 0 10px 0px;
+ }
+.input_Re_email{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+}
+ #address_form
+ {
+   padding:10px 0 10px 0px;
+   font-size:18px; 
+ }
+ .input_address
+ {
+ width:434px;
+ padding:5px;
+ font-size:18px;  
+ }
+ #username_from
+ {
+ padding:10px 0 10px 0px; 
+ }
+ .input_username
+ {
+ width:434px;
+ padding:5px;
+ font-size:18px;    
+ }
+#password_form{
+ padding:10px 0 10px 0px;
+ }
+.input_password{
+ width:434px;
+ padding:5px;
+ font-size:18px;
+ }
+.birthday_title{
+ font-size:16px; 
+ color:#8b919d; 
+ font-weight:normal;
+ padding:0 0 10px 0;
+ }
+select{
+ padding:5px;
+ }
+#birthday{
+ font-size:12px;
+ color:#8b919d;
+ padding-top:10px;
+ }
+#dob_form
+{
+  padding:10px 0 10px 0px;  
+}
+.input_dob
+{
+  width:434px;
+ padding:5px;
+ font-size:18px;  
+}
+#sign_user{
+    width: 91%;
+ font-size:14px;
+ color:#FFF;
+ text-align:center;
+ background-color:#3B5998;
+ padding:10px;
+ margin-top:10px;
+ cursor: pointer;
+ border-radius:15px;
+ }
+#errorBox{
+ color:#F00;
+ }
+#user
+{
+    right:0;
+}
