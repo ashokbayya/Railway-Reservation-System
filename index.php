@@ -10,13 +10,10 @@ session_start();
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Home.css"/>
+        <link rel="stylesheet" href="styles/Home.css"/>
         <title>RRS</title> 
     </head>
     <body>
-        
-          
-        
          <div class="fixed-header">
          <div class="ashok"><b>Railway Reservation System</b></div>
          <div class="container">
@@ -28,20 +25,20 @@ session_start();
            if($user=="admin")
            {
             //echo "<script type='text/javascript'>myFunction();</script>";
-           echo '<a href="admin.php">Admin Page</a><a href="#">Check Availability</a><a href="#">Check Schedule</a>';
+           echo '<a href="src/admin.php">Admin Page</a><a href="#">Check Availability</a><a href="#">Check Schedule</a>';
             echo "".$_SESSION['sess_user'];
-            echo '<a href="logout.php"><button>Logout</button></a>';
+            echo '<a href="src/logout.php"><button>Logout</button></a>';
            }
            else
            {
-               echo '<a href="user.php">User Page</a><a href="#">Check Availability</a><a href="#">Check Schedule</a>';
+               echo '<a href="src/user.php">User Page</a><a href="#">Check Availability</a><a href="#">Check Schedule</a>';
             echo "".$_SESSION['sess_user'];
-            echo '<a href="logout.php"><button>Logout</button></a>';
+            echo '<a href="src/logout.php"><button>Logout</button></a>';
            }
         } 
         else 
         {
-        echo '<a href="Registration.php">Register</a><a href="Login.php">Login</a>';
+        echo '<a href="src/Registration.php">Register</a><a href="src/Login.php">Login</a>';
         }
        ?>
                
@@ -51,7 +48,7 @@ session_start();
         </div>
     </div>
         <div class="logo" align="center">
-            <img src="image.png"  style="width: 30%; height: 20% ;border-radius: 50%">
+            <img src="assets/image.png"  style="width: 30%; height: 20% ;border-radius: 50%">
         </div>
         <div class="content">
             <p>Railway Reservation System is a website to help the passengers to have a simple reservation of train tickets</p>

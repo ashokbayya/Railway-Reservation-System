@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
      <meta charset="UTF-8">
-     <link rel="stylesheet" href="Home.css"/>
+     <link rel="stylesheet" href="../styles/Home.css"/>
      <title>RRS</title> 
     </head>
     <body>
@@ -15,7 +15,7 @@ and open the template in the editor.
         <div class="ashok"><b>Railway Reservation System</b></div>
         <div class="container">
             <nav>
-                <a href="index.php">Home</a>
+                <a href="../index.php">Home</a>
                 <a href="Registration.php">Register</a>
             </nav>
         </div>
